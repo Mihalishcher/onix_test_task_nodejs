@@ -4,9 +4,28 @@
   "description": "Test task for onix internship",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "lint": "npx eslint --max-warnings 0"
   },
-  "keywords": ["node.js", "express"],
+  "keywords": [
+    "node.js",
+    "express"
+  ],
   "author": "Mihail Shcherbakov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
 }

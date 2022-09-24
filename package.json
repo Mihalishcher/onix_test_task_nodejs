@@ -1,0 +1,12 @@
+{
+  "name": "onix_test_task_nodejs",
+  "version": "1.0.0",
+  "description": "Test task for onix internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node.js", "express"],
+  "author": "Mihail Shcherbakov",
+  "license": "ISC"
+}
